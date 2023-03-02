@@ -10,4 +10,4 @@ class Compatants:
         pass
 
     def __str__(self) -> str:
-        self.name()
+        return self.name

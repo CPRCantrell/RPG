@@ -20,6 +20,6 @@ class Hero(Compatants):
         self.display_actions()
         return input('What action would you like to take: ').lower() #----------------------> validate user input later
 
-    def display_action(self):
+    def display_actions(self):
         for action in range(len(self.turn_options)):
             print(f'{action+1} - {self.turn_options[action]}')

@@ -30,9 +30,8 @@ class RPG:
         RPG.pause()
 
     def game_loop(self):
-        while self.player.health > 0:
-            self.cunstruct_encounter()
-            self.combat()
+        self.cunstruct_encounter()
+        self.combat()
 
     def cunstruct_encounter(self):
         self.enemy = Slime() #---------------------------> Build cunstructor that will generate random encounters later
